@@ -25,7 +25,10 @@ pip-delete-this-directory.txt
 .vscode/
 .idea/
 
-/inputs/
+# Input assets and source files
+# Keep actual input folders tracked, but ignore generated outputs inside them.
+# The generated voice outputs below are still ignored.
+
 # System files
 .DS_Store
 Thumbs.db
@@ -49,21 +52,26 @@ secrets.json
 # Generated project outputs (ignore by default; remove if you want to version projects)
 /projects/
 
-# Roteiros, provavelmente descontinuado 
+# Roteiros, provavelmente descontinuado
 /roteiros/
 
-# Generated audio/video and large media caches
+# Input assets: track only the reference voices, cards, and tarot knowledge.
+inputs/audio_assets/
+inputs/fonts/
+inputs/videos_fundo/
 inputs/vozes_geradas/
-modelos_rvc/
-models/
-*.wav
-*.mp3
-*.mp4
-*.mov
+inputs/modelos_rvc/
 
-# ffmpeg / container intermediates
-*.ts
-*.mkv
+!inputs/voz/
+!inputs/voz/**
+inputs/cartas/
+!inputs/cartas/**
+!inputs/tarot_knowledge.json
+
+# Generated audio/video and large media caches
+models/
+
+# ffmpeg binaries are not tracked in this repo
 ffmpeg.exe
 ffprobe.exe
 

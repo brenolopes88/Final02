@@ -1,0 +1,1175 @@
+{
+  "o louco": {
+    "name": "O Louco",
+    "essence": "O Louco representa o impulso primordial da jornada. \n    É o momento antes da forma, onde tudo é possível e nada está garantido.",
+    "lightMeaning": "Confiança no fluxo da vida, abertura ao novo e coragem para dar o primeiro passo.\n    O Louco convida a experimentar sem medo do erro, guiado pela intuição.",
+    "shadowMeaning": "Imaturidade, imprudência e fuga de responsabilidades.\n    Pode indicar agir sem consciência das consequências ou negar limites necessários.",
+    "guidanceWhenReversed": "Pergunte-se: estou evitando crescer ou apenas com medo de avançar?\n    A sabedoria do Louco surge quando a liberdade é equilibrada com presença."
+  },
+  "o mago": {
+    "name": "O Mago",
+    "essence": "O Mago representa o poder de transformar intenção em realidade.\n    É a consciência que reconhece seus recursos e aprende a utilizá-los com propósito.",
+    "lightMeaning": "Habilidade, foco e comunicação clara.\n    O Mago indica um momento favorável para agir, iniciar projetos e manifestar ideias\n    através da vontade consciente e do uso inteligente das ferramentas disponíveis.",
+    "shadowMeaning": "Manipulação, engano ou uso distorcido do poder pessoal.\n    Pode indicar promessas vazias, excesso de controle ou desconexão entre intenção e ética.",
+    "guidanceWhenReversed": "Observe onde sua energia está sendo dispersa ou usada para convencer em vez de criar.\n    O verdadeiro poder do Mago surge quando intenção, palavra e ação estão alinhadas."
+  },
+  "a sacerdotisa": {
+    "name": "A Sacerdotisa",
+    "essence": "A Sacerdotisa representa o conhecimento interior, o silêncio e o mistério.\n    Ela guarda verdades que não podem ser forçadas — apenas percebidas.",
+    "lightMeaning": "Intuição aguçada, sensibilidade e percepção profunda.\n    Indica um momento de observar mais do que agir e confiar na sabedoria interna.",
+    "shadowMeaning": "Repressão emocional, passividade excessiva ou medo de se expressar.\n    Pode indicar segredos, confusão interna ou desconexão da própria intuição.",
+    "guidanceWhenReversed": "O silêncio está te protegendo ou te paralisando?\n    Ouvir a intuição exige presença, mas também coragem para agir quando for a hora."
+  },
+  "a imperatriz": {
+    "name": "A Imperatriz",
+    "essence": "A Imperatriz representa a criação, o cuidado e a abundância natural.\n    É a força que nutre, faz crescer e dá forma ao que foi concebido.",
+    "lightMeaning": "Fertilidade criativa, amor, prazer e conexão com o corpo.\n    Indica crescimento saudável, acolhimento e expressão da beleza.",
+    "shadowMeaning": "Excesso de apego, indulgência ou dependência emocional.\n    Pode indicar estagnação por conforto excessivo ou falta de limites.",
+    "guidanceWhenReversed": "Nutrir não é controlar.\n    Pergunte-se se você está cuidando por amor ou por medo de perder."
+  },
+  "o imperador": {
+    "name": "O Imperador",
+    "essence": "O Imperador representa estrutura, autoridade e estabilidade.\n    Ele transforma caos em ordem através de limites claros.",
+    "lightMeaning": "Liderança responsável, disciplina e construção sólida.\n    Indica capacidade de assumir controle e sustentar decisões no longo prazo.",
+    "shadowMeaning": "Rigidez, autoritarismo ou necessidade excessiva de controle.\n    Pode indicar medo de vulnerabilidade ou dificuldade em ceder.",
+    "guidanceWhenReversed": "Estrutura deve sustentar, não sufocar.\n    Reavalie onde o controle está substituindo a confiança."
+  },
+  "o hierofante": {
+    "name": "O Hierofante",
+    "essence": "O Hierofante representa tradição, valores e transmissão de conhecimento.\n    Ele conecta o indivíduo a sistemas de significado maiores que si mesmo.",
+    "lightMeaning": "Aprendizado, orientação espiritual e respeito aos valores compartilhados.\n    Indica o momento de aprender com mestres, tradições ou estruturas consolidadas.",
+    "shadowMeaning": "Dogmatismo, rigidez moral ou submissão cega à autoridade.\n    Pode indicar medo de questionar crenças herdadas.",
+    "guidanceWhenReversed": "Honrar a tradição não exige abandonar o pensamento crítico.\n    Pergunte-se quais valores ainda são verdadeiros para você."
+  },
+  "os enamorados": {
+    "name": "Os Enamorados",
+    "essence": "Os Enamorados representam escolha consciente e alinhamento de valores.\n    É a união entre desejo, ética e responsabilidade.",
+    "lightMeaning": "Relacionamentos significativos, escolhas alinhadas e integração de opostos.\n    Indica decisões tomadas com o coração e a consciência.",
+    "shadowMeaning": "Indecisão, dependência emocional ou conflito interno.\n    Pode indicar escolhas feitas por medo ou prazer imediato.",
+    "guidanceWhenReversed": "Toda escolha envolve renúncia.\n    Observe se você está escolhendo por verdade ou evitando consequências."
+  },
+  "o carro": {
+    "name": "O Carro",
+    "essence": "O Carro representa direção, movimento e domínio da vontade.\n    Ele avança quando forças opostas são integradas.",
+    "lightMeaning": "Determinação, progresso e conquista por esforço consciente.\n    Indica vitória através do foco e da disciplina emocional.",
+    "shadowMeaning": "Impulsividade, agressividade ou avanço sem propósito claro.\n    Pode indicar conflito interno ou perda de controle.",
+    "guidanceWhenReversed": "Avançar exige mais do que força — exige direção.\n    Reavalie se você está se movendo por vontade ou por fuga."
+  },
+  "a forca": {
+    "name": "A Forca",
+    "essence": "A Força representa o poder que nasce da gentileza e da autoconsciência.\n    É o domínio do instinto através da presença.",
+    "lightMeaning": "Coragem, compaixão e equilíbrio emocional.\n    Indica capacidade de enfrentar desafios sem violência ou repressão.",
+    "shadowMeaning": "Repressão emocional, orgulho ou uso inadequado da força.\n    Pode indicar perda de controle ou negação dos próprios impulsos.",
+    "guidanceWhenReversed": "Força verdadeira não é resistência rígida, mas adaptação consciente.\n    Observe onde você está lutando contra si mesmo."
+  },
+  "o eremita": {
+    "name": "O Eremita",
+    "essence": "O Eremita representa introspecção, sabedoria e busca interior.\n    Ele se afasta do ruído externo para encontrar clareza.",
+    "lightMeaning": "Autoconhecimento, prudência e reflexão profunda.\n    Indica um momento de pausa consciente para alinhar propósito e verdade.",
+    "shadowMeaning": "Isolamento excessivo, solidão ou medo de se reconectar.\n    Pode indicar evasão do mundo ou rigidez intelectual.",
+    "guidanceWhenReversed": "Retirar-se é saudável, mas esconder-se não.\n    Leve a luz que encontrou de volta ao mundo."
+  },
+  "a roda da fortuna": {
+    "name": "A Roda da Fortuna",
+    "essence": "A Roda da Fortuna representa os ciclos inevitáveis da vida.\n    Mudança, movimento e o jogo entre destino e livre-arbítrio.",
+    "lightMeaning": "Mudanças favoráveis, viradas de sorte e novas oportunidades.\n    Indica que o fluxo da vida está em movimento e pede adaptação.",
+    "shadowMeaning": "Resistência à mudança ou sensação de falta de controle.\n    Pode indicar repetição de padrões ou instabilidade emocional.",
+    "guidanceWhenReversed": "Nem tudo pode ser controlado, mas tudo pode ser aprendido.\n    Observe os padrões que se repetem e ajuste sua postura."
+  },
+  "a justica": {
+    "name": "A Justica",
+    "essence": "A Justiça representa equilíbrio, verdade e responsabilidade.\n    Toda ação gera consequências — internas e externas.",
+    "lightMeaning": "Clareza, honestidade e decisões justas.\n    Indica alinhamento entre valores, ações e resultados.",
+    "shadowMeaning": "Negação da verdade, parcialidade ou rigidez moral.\n    Pode indicar autoengano ou medo de assumir responsabilidades.",
+    "guidanceWhenReversed": "Seja honesto consigo antes de exigir justiça do mundo.\n    O equilíbrio começa no reconhecimento da própria verdade."
+  },
+  "o enforcado": {
+    "name": "O Enforcado",
+    "essence": "O Enforcado representa pausa, rendição e mudança de perspectiva.\n    A sabedoria surge quando o controle é attachment.",
+    "lightMeaning": "Aceitação, entrega consciente e nova visão.\n    Indica crescimento através da suspensão da ação imediata.",
+    "shadowMeaning": "Estagnação, vitimização ou sacrifício inútil.\n    Pode indicar apego ao sofrimento ou medo de agir.",
+    "guidanceWhenReversed": "Nem toda pausa é iluminação.\n    Reflita se você está escolhendo parar ou apenas evitando avançar."
+  },
+  "a morte": {
+    "name": "A Morte",
+    "essence": "A Morte representa transformação profunda e encerramento de ciclos.\n    Nada novo nasce sem que algo termine.",
+    "lightMeaning": "Renascimento, libertação e mudança inevitável.\n    Indica o fim de uma fase para dar lugar a outra mais alinhada.",
+    "shadowMeaning": "Resistência à mudança, medo de perdas ou apego ao passado.\n    Pode indicar prolongamento desnecessário do sofrimento.",
+    "guidanceWhenReversed": "O fim não é punição, é passagem.\n    Soltar conscientemente reduz a dor da transformação."
+  },
+  "a temperanca": {
+    "name": "A Temperanca",
+    "essence": "A Temperança representa equilíbrio, integração e harmonia dinâmica.\n    É a arte de misturar opostos com consciência.",
+    "lightMeaning": "Moderação, cura e adaptação inteligente.\n    Indica um período de alinhamento entre mente, corpo e espírito.",
+    "shadowMeaning": "Desequilíbrio, excessos ou dificuldade de integração.\n    Pode indicar conflitos internos não resolvidos.",
+    "guidanceWhenReversed": "Equilíbrio não é estagnação.\n    Ajustes conscientes exigem atenção contínua."
+  },
+  "o diabo": {
+    "name": "O Diabo",
+    "essence": "O Diabo representa aprisionamentos inconscientes e desejos não integrados.\n    É o poder da sombra quando não é reconhecida.",
+    "lightMeaning": "Consciência sobre impulsos, desejos e padrões.\n    Autenticidade radical e libertação através do reconhecimento da sombra.",
+    "shadowMeaning": "Vícios, dependências e relações tóxicas.\n    Ilusão de liberdade enquanto se permanece preso.",
+    "guidanceWhenReversed": "Nomear a sombra dissolve seu poder.\n    Liberdade começa com responsabilidade pessoal."
+  },
+  "a torre": {
+    "name": "A Torre",
+    "essence": "A Torre representa a queda de estruturas falsas.\n    O choque necessário para restaurar a verdade.",
+    "lightMeaning": "Libertação súbita, despertar e revelação.\n    O que cai já não sustentava a alma.",
+    "shadowMeaning": "Medo da mudança, colapso traumático e resistência à verdade.\n    Rupturas vividas com sofrimento desnecessário.",
+    "guidanceWhenReversed": "Não reconstrua o que desabou por ilusão.\n    Use a queda como base para algo autêntico."
+  },
+  "a estrela": {
+    "name": "A Estrela",
+    "essence": "A Estrela representa esperança, cura e fé restaurada.\n    A luz suave após a tempestade.",
+    "lightMeaning": "Renovação espiritual, serenidade e confiança no fluxo da vida.\n    Cura profunda e alinhamento interior.",
+    "shadowMeaning": "Desânimo, perda de fé ou dificuldade em confiar no futuro.\n    Esperança fragilizada.",
+    "guidanceWhenReversed": "A esperança não precisa ser grandiosa.\n    Basta manter a chama acesa."
+  },
+  "a lua": {
+    "name": "A Lua",
+    "essence": "A Lua representa o inconsciente, os mistérios e as ilusões.\n    O caminho através da sombra emocional.",
+    "lightMeaning": "Intuição aguçada, sensibilidade e contato profundo com o inconsciente.\n    Sonhos e sinais ganham relevância.",
+    "shadowMeaning": "Medos, confusão, ansiedade e enganos internos.\n    Dificuldade em discernir realidade de ilusão.",
+    "guidanceWhenReversed": "Nem tudo precisa ser entendido agora.\n    Confie no ritmo da revelação."
+  },
+  "o sol": {
+    "name": "O Sol",
+    "essence": "O Sol representa clareza, vitalidade e alegria consciente.\n    A verdade iluminada sem distorções.",
+    "lightMeaning": "Sucesso, autenticidade e energia vital elevada.\n    Momento de expansão e celebração.",
+    "shadowMeaning": "Excesso de ego, otimismo ingênuo ou necessidade de validação externa.",
+    "guidanceWhenReversed": "Brilhe sem competir.\n    A luz verdadeira não ofusca, aquece."
+  },
+  "o julgamento": {
+    "name": "O Julgamento",
+    "essence": "O Julgamento representa renascimento e chamado interior.\n    A resposta inevitável da alma.",
+    "lightMeaning": "Despertar, libertação do passado e clareza de propósito.\n    Um novo ciclo se inicia.",
+    "shadowMeaning": "Culpa, autojulgamento severo e medo de responder ao chamado.",
+    "guidanceWhenReversed": "Ouça o chamado interno, não o ruído externo.\n    A redenção começa com aceitação."
+  },
+  "o mundo": {
+    "name": "O Mundo",
+    "essence": "O Mundo representa conclusão, integração e plenitude.\n    A união entre interno e externo.",
+    "lightMeaning": "Realização, encerramento bem-sucedido e senso de totalidade.\n    O ciclo se completa.",
+    "shadowMeaning": "Sensação de incompletude ou dificuldade em encerrar ciclos.\n    Apego ao passado.",
+    "guidanceWhenReversed": "Reconheça o quanto já foi conquistado.\n    A conclusão é parte do crescimento."
+  },
+  "as de paus": {
+    "name": "As de Paus",
+    "essence": "O Ás de Paus simboliza inspiração, potencial e a centelha de novos começos.",
+    "lightMeaning": "Em pé, o Ás de Paus representa uma explosão de energia criativa, entusiasmo e a coragem de começar algo novo. É uma carta de oportunidade e crescimento.",
+    "shadowMeaning": "Invertido, esta carta indica atrasos, falta de direção ou oportunidades perdidas. Incentiva a reavaliar planos e reacender a inspiração.",
+    "guidanceWhenReversed": "Invertido, indica atrasos, falta de direção ou oportunidades criativas perdidas.",
+    "keywordsLight": [
+      "Inspiração",
+      "Novos Começos",
+      "Potencial",
+      "Criatividade"
+    ],
+    "keywordsShadow": [
+      "Atrasos",
+      "Falta de Foco",
+      "Oportunidades Perdidas"
+    ]
+  },
+  "dois de paus": {
+    "name": "Dois de Paus",
+    "essence": "O Dois de Paus significa planejamento, previsão e a exploração de possibilidades futuras.",
+    "lightMeaning": "Em pé, o Dois de Paus representa planejamento estratégico, tomada de decisão e preparação para expansão. Incentiva a definição de metas claras.",
+    "shadowMeaning": "Invertido, esta carta alerta para indecisão, medo do desconhecido ou falta de progresso. Sugere superar a hesitação e abraçar o crescimento.",
+    "guidanceWhenReversed": "Invertido, alerta para indecisão, medo do desconhecido ou falta de progresso real.",
+    "keywordsLight": [
+      "Planejamento",
+      "Previsão",
+      "Exploração",
+      "Visão"
+    ],
+    "keywordsShadow": [
+      "Indecisão",
+      "Estagnação",
+      "Medo de Mudança"
+    ]
+  },
+  "tres de paus": {
+    "name": "Tres de Paus",
+    "essence": "O Três de Paus representa expansão, progresso e a antecipação do sucesso.",
+    "lightMeaning": "Em pé, o Três de Paus significa crescimento, aventura e a implementação bem-sucedida de planos. Incentiva olhar para frente com otimismo.",
+    "shadowMeaning": "Invertido, esta carta alerta para obstáculos, atrasos ou expectativas irreais. Sugere reavaliar estratégias e ter paciência.",
+    "guidanceWhenReversed": "Invertido, alerta para obstáculos inesperados, atrasos ou expectativas irreais.",
+    "keywordsLight": [
+      "Expansão",
+      "Progresso",
+      "Sucesso",
+      "Visão"
+    ],
+    "keywordsShadow": [
+      "Atrasos",
+      "Contratempos",
+      "Excesso de Confiança"
+    ]
+  },
+  "quatro de paus": {
+    "name": "Quatro de Paus",
+    "essence": "O Quatro de Paus significa celebração, harmonia e um senso de comunidade ou lar.",
+    "lightMeaning": "Em pé, o Quatro de Paus representa o retorno ao lar, celebração e o alcance de marcos importantes. É uma carta de gratidão e harmonia.",
+    "shadowMeaning": "Invertido, esta carta pode indicar instabilidade, conflitos ou expectativas não atendidas. Sugere trabalhar nos relacionamentos e restaurar o equilíbrio.",
+    "guidanceWhenReversed": "Invertido, pode indicar instabilidade familiar, conflitos comunitários ou celebrações adiadas.",
+    "keywordsLight": [
+      "Celebração",
+      "Harmonia",
+      "Unidade",
+      "Estabilidade"
+    ],
+    "keywordsShadow": [
+      "Instabilidade",
+      "Conflito",
+      "Incerteza"
+    ]
+  },
+  "cinco de paus": {
+    "name": "Cinco de Paus",
+    "essence": "O Cinco de Paus representa conflito, competição e a luta para encontrar harmonia.",
+    "lightMeaning": "Em pé, o Cinco de Paus significa divergências, competição ou tensão criativa. Incentiva a busca por soluções construtivas e trabalho colaborativo.",
+    "shadowMeaning": "Invertido, sugere evitar conflitos, resolver tensões ou desengajar-se de batalhas desnecessárias. Alerta contra ignorar problemas que precisam ser resolvidos.",
+    "guidanceWhenReversed": "Invertido, sugere a resolução de conflitos, evitar disputas desnecessárias ou o fim de uma competição.",
+    "keywordsLight": [
+      "Conflito",
+      "Competição",
+      "Tensão",
+      "Desafio"
+    ],
+    "keywordsShadow": [
+      "Resolução",
+      "Evasão",
+      "Harmonia"
+    ]
+  },
+  "seis de paus": {
+    "name": "Seis de Paus",
+    "essence": "O Seis de Paus significa vitória, reconhecimento e sucesso público.",
+    "lightMeaning": "Em pé, representa conquistas, confiança e a admiração dos outros. Incentiva a celebrar as vitórias e reconhecer o próprio sucesso.",
+    "shadowMeaning": "Invertido, alerta para autodúvida, contratempos ou falta de reconhecimento. Sugere focar na validação interna em vez da aprovação externa.",
+    "guidanceWhenReversed": "Invertido, alerta para falta de confiança, queda do pedestal ou sentimento de desvalorização.",
+    "keywordsLight": [
+      "Vitória",
+      "Reconhecimento",
+      "Confiança",
+      "Sucesso"
+    ],
+    "keywordsShadow": [
+      "Contratempos",
+      "Autodúvida",
+      "Decepção"
+    ]
+  },
+  "sete de paus": {
+    "name": "Sete de Paus",
+    "essence": "Representa manter sua posição, perseverança e defender suas convicções.",
+    "lightMeaning": "Em pé, o Sete de Paus significa determinação, coragem e autoafirmação. Incentiva a manter-se firme em suas crenças.",
+    "shadowMeaning": "Invertido, pode indicar sentir-se sobrecarregado, derrotado ou vulnerável. Sugere reavaliar prioridades e recuperar a confiança.",
+    "guidanceWhenReversed": "Invertido, indica sentir-se sobrecarregado, desistência ou vulnerabilidade extrema.",
+    "keywordsLight": [
+      "Perseverança",
+      "Coragem",
+      "Defesa",
+      "Resiliência"
+    ],
+    "keywordsShadow": [
+      "Sobrecarga",
+      "Derrota",
+      "Vulnerabilidade"
+    ]
+  },
+  "oito de paus": {
+    "name": "Oito de Paus",
+    "essence": "Representa movimento rápido, progresso e o desenrolar veloz dos acontecimentos.",
+    "lightMeaning": "Em pé, o Oito de Paus significa velocidade, progresso e comunicação clara. Incentiva a abraçar oportunidades e agir decisivamente.",
+    "shadowMeaning": "Invertido, alerta para atrasos, má comunicação ou energia dispersa. Sugere desacelerar e recuperar o foco.",
+    "guidanceWhenReversed": "Invertido, alerta para atrasos frustrantes, comunicação confusa ou pressa excessiva.",
+    "keywordsLight": [
+      "Velocidade",
+      "Progresso",
+      "Ímpeto",
+      "Clareza"
+    ],
+    "keywordsShadow": [
+      "Atrasos",
+      "Pressa",
+      "Confusão"
+    ]
+  },
+  "nove de paus": {
+    "name": "Nove de Paus",
+    "essence": "Significa resiliência, persistência e a coragem para superar os últimos desafios.",
+    "lightMeaning": "Em pé, o Nove de Paus representa força, resistência e proteção do progresso feito. Incentiva a manter-se forte diante das adversidades.",
+    "shadowMeaning": "Invertido, pode indicar exaustão, esgotamento ou relutância em continuar. Sugere buscar apoio e restaurar o equilíbrio.",
+    "guidanceWhenReversed": "Invertido, indica exaustão, burnout ou recusa em continuar lutando.",
+    "keywordsLight": [
+      "Resiliência",
+      "Persistência",
+      "Coragem",
+      "Resistência"
+    ],
+    "keywordsShadow": [
+      "Exaustão",
+      "Burnout",
+      "Resistência"
+    ]
+  },
+  "dez de paus": {
+    "name": "Dez de Paus",
+    "essence": "Representa fardos, responsabilidade excessiva e o peso das obrigações.",
+    "lightMeaning": "Em pé, o Dez de Paus significa trabalho árduo, determinação e a conclusão de tarefas pesadas. Incentiva a reconhecer seus limites.",
+    "shadowMeaning": "Invertido, alerta para sobrecarga, fardos excessivos ou negligência com o autocuidado. Sugere aliviar a carga e priorizar.",
+    "guidanceWhenReversed": "Invertido, sugere colapso sob pressão, necessidade de delegar ou libertação de pesos.",
+    "keywordsLight": [
+      "Responsabilidade",
+      "Fardos",
+      "Trabalho Árduo",
+      "Conclusão"
+    ],
+    "keywordsShadow": [
+      "Sobrecarga",
+      "Negligência",
+      "Estresse"
+    ]
+  },
+  "pagem de paus": {
+    "name": "pagem de Paus",
+    "essence": "Representa entusiasmo juvenil, curiosidade e a centelha inicial de inspiração.",
+    "lightMeaning": "Em pé, significa inspiração, potencial e uma perspectiva fresca. Incentiva dar os primeiros passos em direção a um novo projeto.",
+    "shadowMeaning": "Invertido, alerta para falta de direção, hesitação ou energia desfocada. Sugere refinar ideias e criar um plano claro.",
+    "guidanceWhenReversed": "Invertido, alerta para falta de direção, hesitação ou energia dispersa e imatura.",
+    "keywordsLight": [
+      "Inspiração",
+      "Curiosidade",
+      "Exploração",
+      "Criatividade"
+    ],
+    "keywordsShadow": [
+      "Hesitação",
+      "Falta de Direção",
+      "Imaturidade"
+    ]
+  },
+  "cavaleiro de paus": {
+    "name": "Cavaleiro de Paus",
+    "essence": "Representa paixão, ação e a busca por objetivos com determinação e rapidez.",
+    "lightMeaning": "Em pé, o Cavaleiro de Paus significa determinação, ousadia e entusiasmo. Incentiva a perseguir objetivos com confiança.",
+    "shadowMeaning": "Invertido, alerta para impulsividade, temeridade ou falta de foco. Sugere equilibrar a paixão com paciência e planejamento.",
+    "guidanceWhenReversed": "Invertido, alerta para impulsividade, imprudência ou frustração por falta de foco.",
+    "keywordsLight": [
+      "Ação",
+      "Paixão",
+      "Determinação",
+      "Ambição"
+    ],
+    "keywordsShadow": [
+      "Impulsividade",
+      "Imprudência",
+      "Frustração"
+    ]
+  },
+  "rainha de paus": {
+    "name": "Rainha de Paus",
+    "essence": "Encarna confiança, independência e o poder do carisma e da determinação.",
+    "lightMeaning": "Em pé, representa calor humano, determinação e autoconfiança. Incentiva a abraçar sua força interior e inspirar os outros.",
+    "shadowMeaning": "Invertida, alerta para insegurança, comportamento autoritário ou burnout. Sugere reconectar-se com suas paixões e valor próprio.",
+    "guidanceWhenReversed": "Invertida, sugere insegurança, comportamento controlador ou esgotamento emocional.",
+    "keywordsLight": [
+      "Confiança",
+      "Carisma",
+      "Criatividade",
+      "Independência"
+    ],
+    "keywordsShadow": [
+      "Insegurança",
+      "Dominadora",
+      "Autodúvida"
+    ]
+  },
+  "rei de paus": {
+    "name": "Rei de Paus",
+    "essence": "Representa liderança, visão e o domínio total da energia criativa e empreendedora.",
+    "lightMeaning": "Em pé, o Rei de Paus significa visão, liderança e espírito empreendedor. Incentiva ações ousadas e inspiração mútua.",
+    "shadowMeaning": "Invertido, alerta para arrogância, impulsividade ou falta de direção. Sugere equilibrar a ambição com humildade e paciência.",
+    "guidanceWhenReversed": "Invertido, alerta para arrogância, impulsividade ou liderança autoritária e sem direção.",
+    "keywordsLight": [
+      "Liderança",
+      "Visão",
+      "Autoridade",
+      "Inovação"
+    ],
+    "keywordsShadow": [
+      "Arrogância",
+      "Impulsividade",
+      "Excesso de Confiança"
+    ]
+  },
+  "as de copas": {
+    "name": "as de Copas",
+    "essence": "O Ás de Copas representa realização emocional e o fluxo de amor e compaixão. É o potencial de renovação emocional e o despertar do coração.",
+    "lightMeaning": "Novos relacionamentos, amor e realização emocional. Incentiva abraçar seus sentimentos e expressá-los abertamente.",
+    "shadowMeaning": "Bloqueios emocionais, amor não correspondido ou dificuldade em expressar emoções. Sugere trabalhar a cura emocional e o amor-próprio.",
+    "guidanceWhenReversed": "O coração está fechado ou apenas protegido? A diferença entre os dois define o que você precisa fazer agora.",
+    "keywordsLight": [
+      "Amor",
+      "Compaixão",
+      "Renovação Emocional",
+      "Relacionamentos",
+      "Criatividade"
+    ],
+    "keywordsShadow": [
+      "Emoções Bloqueadas",
+      "Amor Não Correspondido",
+      "Cura Emocional"
+    ]
+  },
+  "dois de copas": {
+    "name": "Dois de Copas",
+    "essence": "O Dois de Copas representa parceria, harmonia e respeito mútuo. É a troca genuína entre dois que se reconhecem.",
+    "lightMeaning": "Parcerias fortes, uniões românticas e equilíbrio emocional. Incentiva a construção de relacionamentos baseados na confiança e na compreensão mútua.",
+    "shadowMeaning": "Desequilíbrio, tensão ou falta de harmonia nos relacionamentos. Pode indicar falha na comunicação ou expectativas não ditas.",
+    "guidanceWhenReversed": "O que você não está dizendo que precisaria ser dito? O silêncio aqui não é proteção — é distância.",
+    "keywordsLight": [
+      "Parceria",
+      "Harmonia",
+      "União",
+      "Amor",
+      "Equilíbrio"
+    ],
+    "keywordsShadow": [
+      "Desequilíbrio",
+      "Falha na Comunicação",
+      "Tensão"
+    ]
+  },
+  "tres de copas": {
+    "name": "Tres de Copas",
+    "essence": "O Três de Copas simboliza celebração, amizade e alegria compartilhada. É a força que nasce da comunidade genuína.",
+    "lightMeaning": "Celebração, trabalho em equipe e o apoio de amigos próximos e familiares. Incentiva a valorizar os momentos de união.",
+    "shadowMeaning": "Excessos, fofocas ou sentimentos de isolamento dentro de um grupo. Pode indicar superficialidade nas conexões.",
+    "guidanceWhenReversed": "Você está celebrando com pessoas que realmente te conhecem, ou está preenchendo espaço com presença sem profundidade?",
+    "keywordsLight": [
+      "Celebração",
+      "Amizade",
+      "Unidade",
+      "Felicidade"
+    ],
+    "keywordsShadow": [
+      "Excessos",
+      "Fofoca",
+      "Solidão"
+    ]
+  },
+  "quatro de copas": {
+    "name": "Quatro de Copas",
+    "essence": "O Quatro de Copas representa introspecção e contemplação. Há uma taça sendo oferecida que você ainda não viu.",
+    "lightMeaning": "Reavaliar seu estado emocional e as oportunidades ao seu redor. Sugere a necessidade de gratidão e atenção plena.",
+    "shadowMeaning": "Estagnação emocional, indiferença ou foco excessivo no negativo enquanto oportunidades passam despercebidas.",
+    "guidanceWhenReversed": "O que você está ignorando porque já decidiu que não vai funcionar antes mesmo de olhar?",
+    "keywordsLight": [
+      "Contemplação",
+      "Introspecção",
+      "Reavaliação",
+      "Oportunidades"
+    ],
+    "keywordsShadow": [
+      "Estagnação",
+      "Indiferença",
+      "Oportunidades Perdidas"
+    ]
+  },
+  "cinco de copas": {
+    "name": "Cinco de Copas",
+    "essence": "O Cinco de Copas representa perda e decepção. Três taças derramadas. Duas ainda de pé. O que você está olhando?",
+    "lightMeaning": "Reconhecimento honesto da dor e da perda. Incentiva encontrar forças para seguir em frente e valorizar o que restou.",
+    "shadowMeaning": "Arrependimento crônico, tristeza ou fracasso que não permite ver o que ainda existe de intacto.",
+    "guidanceWhenReversed": "Você já está em recuperação ou ainda está contando o que derramou em vez de olhar para o que sobrou?",
+    "keywordsLight": [
+      "Luto",
+      "Honestidade",
+      "Recuperação",
+      "Perspectiva"
+    ],
+    "keywordsShadow": [
+      "Perda",
+      "Arrependimento",
+      "Tristeza",
+      "Decepção"
+    ]
+  },
+  "seis de copas": {
+    "name": "Seis de Copas",
+    "essence": "O Seis de Copas representa nostalgia e as alegrias simples do passado. A memória que ainda aquece.",
+    "lightMeaning": "Abraçar memórias felizes, reconectar-se com entes queridos ou encontrar alegria em prazeres simples.",
+    "shadowMeaning": "Ficar preso ao passado, evitar responsabilidades ou romantizar tempos que não voltam. O presente exige presença.",
+    "guidanceWhenReversed": "A nostalgia é um descanso legítimo ou uma fuga do que você não quer encarar hoje?",
+    "keywordsLight": [
+      "Nostalgia",
+      "Inocência",
+      "Generosidade",
+      "Alegria"
+    ],
+    "keywordsShadow": [
+      "Viver no Passado",
+      "Expectativas Irreais",
+      "Evasão"
+    ]
+  },
+  "sete de copas": {
+    "name": "Sete de Copas",
+    "essence": "O Sete de Copas representa escolhas e o desafio de distinguir a realidade da ilusão. Nem tudo que brilha na taça é real.",
+    "lightMeaning": "Abundância de opções, imaginação e criatividade. Aconselha consideração cuidadosa e foco no que é realmente alcançável.",
+    "shadowMeaning": "Devaneio excessivo, paralisia por excesso de opções ou ilusões sedutoras que desviam do que é concreto.",
+    "guidanceWhenReversed": "Das opções que você está considerando agora, quantas você escolheria se não pudesse mais mudar de ideia amanhã?",
+    "keywordsLight": [
+      "Escolhas",
+      "Imaginação",
+      "Criatividade",
+      "Possibilidades"
+    ],
+    "keywordsShadow": [
+      "Ilusões",
+      "Devaneio",
+      "Fuga da Realidade"
+    ]
+  },
+  "oito de copas": {
+    "name": "Oito de Copas",
+    "essence": "O Oito de Copas representa deixar para trás o que não serve mais. Não por raiva — por necessidade.",
+    "lightMeaning": "Desapego consciente, introspecção e a busca por objetivos mais elevados. Incentiva priorizar o crescimento pessoal em vez do conforto.",
+    "shadowMeaning": "Medo da mudança, estagnação ou dificuldade em deixar uma situação insatisfatória mesmo sabendo que ela não funciona mais.",
+    "guidanceWhenReversed": "Você está ficando por amor ou por medo de ter que começar de novo?",
+    "keywordsLight": [
+      "Desapego",
+      "Introspecção",
+      "Crescimento Pessoal",
+      "Coragem"
+    ],
+    "keywordsShadow": [
+      "Estagnação",
+      "Medo da Mudança",
+      "Resistência"
+    ]
+  },
+  "nove de copas": {
+    "name": "Nove de Copas",
+    "essence": "O Nove de Copas é a carta dos desejos. Contentamento, satisfação e realização emocional — mas conquistados, não dados.",
+    "lightMeaning": "Felicidade, bem-estar emocional e a realização de desejos pessoais. Incentiva a gratidão pelo que você conquistou.",
+    "shadowMeaning": "Insatisfação, excessos ou desejos não realizados por falta de ação. A abundância aqui exige que você tenha feito sua parte.",
+    "guidanceWhenReversed": "O que você quer que ainda não foi buscado de verdade, apenas desejado?",
+    "keywordsLight": [
+      "Contentamento",
+      "Gratidão",
+      "Realização",
+      "Abundância"
+    ],
+    "keywordsShadow": [
+      "Insatisfação",
+      "Excessos",
+      "Vazio"
+    ]
+  },
+  "dez de copas": {
+    "name": "Dez de Copas",
+    "essence": "O Dez de Copas representa harmonia, felicidade familiar e realização emocional duradoura. O arco-íris depois da tempestade.",
+    "lightMeaning": "Felicidade a longo prazo, harmonia familiar e realização nos relacionamentos. Celebra a conexão emocional e o amor.",
+    "shadowMeaning": "Relacionamentos tensos, sonhos desfeitos ou insatisfação oculta sob uma aparência de harmonia.",
+    "guidanceWhenReversed": "A paz que você vê de fora também existe por dentro, ou é uma fachada que você mantém por hábito?",
+    "keywordsLight": [
+      "Harmonia",
+      "Felicidade",
+      "Realização",
+      "Conexão"
+    ],
+    "keywordsShadow": [
+      "Tensão",
+      "Insatisfação",
+      "Aparências"
+    ]
+  },
+  "pagem de copas": {
+    "name": "pagem de Copas",
+    "essence": "O Valete de Copas representa abertura emocional e curiosidade. O peixe na taça não foi convocado — apareceu.",
+    "lightMeaning": "Novas experiências emocionais, empreendimentos criativos e abertura à inspiração. Incentiva a abraçar sua criança interior.",
+    "shadowMeaning": "Imaturidade emocional, bloqueios criativos ou relutância em expressar sentimentos. Pode indicar expectativas irreais.",
+    "guidanceWhenReversed": "Você está aberto ao inesperado ou está esperando apenas o que já conhece?",
+    "keywordsLight": [
+      "Imaginação",
+      "Inspiração",
+      "Abertura",
+      "Curiosidade"
+    ],
+    "keywordsShadow": [
+      "Imaturidade",
+      "Bloqueios",
+      "Repressão Emocional"
+    ]
+  },
+  "cavaleiro de copas": {
+    "name": "Cavaleiro de Copas",
+    "essence": "O Cavaleiro de Copas representa romantismo e a busca pelos sonhos com paixão e graça. Ele cavalga suavemente — mas cavalga.",
+    "lightMeaning": "Buscar suas paixões, seguir seu coração e abraçar a criatividade. Incentiva a ouvir sua intuição.",
+    "shadowMeaning": "Romantização excessiva, melancolia ou expectativas irreais que deixam o ideal sempre fora de alcance.",
+    "guidanceWhenReversed": "O que você está romantizando a ponto de não conseguir ver como é de verdade?",
+    "keywordsLight": [
+      "Romance",
+      "Charme",
+      "Criatividade",
+      "Sonhos"
+    ],
+    "keywordsShadow": [
+      "Melancolia",
+      "Expectativas Irreais",
+      "Desequilíbrio"
+    ]
+  },
+  "rainha de copas": {
+    "name": "Rainha de Copas",
+    "essence": "A Rainha de Copas representa inteligência emocional e sabedoria intuitiva. Ela sente tudo e ainda assim permanece.",
+    "lightMeaning": "Acolhimento, compreensão e equilíbrio emocional. Incentiva a empatia e a confiança na sua intuição.",
+    "shadowMeaning": "Sobrecarga emocional, insegurança ou codependência. Pode indicar cuidar dos outros a ponto de se esquecer de si.",
+    "guidanceWhenReversed": "Você está cuidando por amor genuíno ou porque não sabe existir sem ser necessário para alguém?",
+    "keywordsLight": [
+      "Compaixão",
+      "Intuição",
+      "Empatia",
+      "Acolhimento"
+    ],
+    "keywordsShadow": [
+      "Insegurança",
+      "Sobrecarga",
+      "Codependência"
+    ]
+  },
+  "rei de copas": {
+    "name": "Rei de Copas",
+    "essence": "O Rei de Copas representa maestria emocional. Ele sente tudo — e não se afoga em nada disso.",
+    "lightMeaning": "Equilíbrio emocional, compaixão e liderança sábia. Incentiva a lidar com os desafios com empatia e compostura.",
+    "shadowMeaning": "Manipulação emocional, volatilidade ou sentimentos reprimidos que eventualmente transbordam de forma destrutiva.",
+    "guidanceWhenReversed": "O controle que você exerce sobre suas emoções é sabedoria ou é supressão disfarçada de força?",
+    "keywordsLight": [
+      "Equilíbrio",
+      "Diplomacia",
+      "Compaixão",
+      "Liderança"
+    ],
+    "keywordsShadow": [
+      "Manipulação",
+      "Volatilidade",
+      "Repressão"
+    ]
+  },
+  "as de espadas": {
+    "name": "as de Espadas",
+    "essence": "O Ás de Espadas representa clareza, verdade e avanços. Simboliza o poder da mente e novos começos no pensamento e na comunicação.",
+    "lightMeaning": "Em pé, o Ás de Espadas significa clareza mental, novas ideias e a coragem de encarar a verdade. Incentiva o uso da lógica e do intelecto para superar desafios.",
+    "shadowMeaning": "Invertido, esta carta pode indicar confusão, má comunicação ou falta de foco. Sugere reavaliar seus pensamentos e buscar clareza antes de agir.",
+    "guidanceWhenReversed": "Invertido, indica confusão, falha na comunicação ou falta de foco intelectual.",
+    "keywordsLight": [
+      "Clareza",
+      "Avanço",
+      "Verdade",
+      "Intelecto",
+      "Novas Ideias"
+    ],
+    "keywordsShadow": [
+      "Confusão",
+      "Má Comunicação",
+      "Bloqueio Mental"
+    ]
+  },
+  "dois de espadas": {
+    "name": "Dois de Espadas",
+    "essence": "Representa tomada de decisão, equilíbrio e o desafio de pesar opções ou ideias opostas.",
+    "lightMeaning": "Em pé, significa a necessidade de tomar uma decisão, muitas vezes entre duas opções igualmente desafiadoras. Incentiva a busca pelo equilíbrio interno.",
+    "shadowMeaning": "Invertido, pode indicar indecisão, evitação ou estar paralisado por escolhas conflitantes. Aconselha enfrentar o problema de frente para avançar.",
+    "guidanceWhenReversed": "Invertido, indica indecisão crônica, fuga da realidade ou estar preso entre escolhas conflitantes.",
+    "keywordsLight": [
+      "Decisões",
+      "Equilíbrio",
+      "Escolhas",
+      "Conflito Interno"
+    ],
+    "keywordsShadow": [
+      "Indecisão",
+      "Evasão",
+      "Confusão"
+    ]
+  },
+  "tres de espadas": {
+    "name": "Tres de Espadas",
+    "essence": "Representa decepção, tristeza e dor emocional. Frequentemente simboliza desafios em relacionamentos ou lutas pessoais.",
+    "lightMeaning": "Em pé, significa mágoa, perda ou agitação emocional. Incentiva o reconhecimento da dor e a busca pela cura através da introspecção.",
+    "shadowMeaning": "Invertido, esta carta indica recuperação, perdão ou a liberação de uma dor antiga. Aconselha deixar de lado fardos emocionais para abraçar um novo capítulo.",
+    "guidanceWhenReversed": "Invertido, indica recuperação, perdão e a liberação de dores passadas.",
+    "keywordsLight": [
+      "Decepção",
+      "Perda",
+      "Tristeza",
+      "Dor Emocional"
+    ],
+    "keywordsShadow": [
+      "Recuperação",
+      "Perdão",
+      "Cura"
+    ]
+  },
+  "quatro de espadas": {
+    "name": "Quatro de Espadas",
+    "essence": "Representa descanso, recuperação e contemplação. Incentiva o recuo para restaurar o equilíbrio mental e emocional.",
+    "lightMeaning": "Em pé, significa repouso, recuperação e clareza mental. Incentiva o distanciamento temporário para recuperar a perspectiva e a energia.",
+    "shadowMeaning": "Invertido, pode indicar estafa (burnout), inquietação ou negligência com o próprio descanso. Aconselha priorizar o autocuidado.",
+    "guidanceWhenReversed": "Invertido, alerta para esgotamento, inquietação ou incapacidade de fazer uma pausa necessária.",
+    "keywordsLight": [
+      "Descanso",
+      "Recuperação",
+      "Introspecção",
+      "Clareza"
+    ],
+    "keywordsShadow": [
+      "Esgotamento",
+      "Inquietação",
+      "Sobrecarga"
+    ]
+  },
+  "cinco de espadas": {
+    "name": "Cinco de Espadas",
+    "essence": "Representa conflito, tensão e as consequências de uma batalha. Simboliza a vitória a qualquer custo.",
+    "lightMeaning": "Em pé, significa conflito, tensão e potencial traição. Pode indicar uma vitória vazia, onde o dano causado supera o ganho obtido.",
+    "shadowMeaning": "Invertido, pode indicar a resolução de uma disputa ou o desejo de fazer as pazes. Sugere abandonar ressentimentos e seguir em frente.",
+    "guidanceWhenReversed": "Invertido, indica a resolução de conflitos, desejo de reconciliação ou o fim de uma disputa.",
+    "keywordsLight": [
+      "Conflito",
+      "Tensão",
+      "Traição",
+      "Vitória Vazia"
+    ],
+    "keywordsShadow": [
+      "Resolução",
+      "Reconciliação",
+      "Perdão"
+    ]
+  },
+  "seis de espadas": {
+    "name": "Seis de Espadas",
+    "essence": "Representa transição, mudança e o ato de seguir em frente, deixando dificuldades para trás em busca de paz.",
+    "lightMeaning": "Em pé, significa progredir após um período difícil. Sugere deixar para trás o peso emocional e rumar para um estado mental mais pacífico.",
+    "shadowMeaning": "Invertido, pode indicar estagnação ou resistência à mudança. Sugere a necessidade de aceitar o passado para poder finalmente curar-se.",
+    "guidanceWhenReversed": "Invertido, indica estagnação, relutância em mudar ou bagagem emocional não resolvida.",
+    "keywordsLight": [
+      "Transição",
+      "Mudança",
+      "Cura",
+      "Seguir em Frente"
+    ],
+    "keywordsShadow": [
+      "Estagnação",
+      "Relutância",
+      "Resistência"
+    ]
+  },
+  "sete de espadas": {
+    "name": "Sete de Espadas",
+    "essence": "Representa engano, estratégia e segredo. Sugere agir com astúcia ou evitar confrontos diretos.",
+    "lightMeaning": "Em pé, sugere a necessidade de uma abordagem estratégica. Pode indicar que alguém está agindo de forma oculta ou escondendo intenções reais.",
+    "shadowMeaning": "Invertido, pode indicar o fim de uma mentira ou a decisão de enfrentar as consequências das próprias ações. Sugere honestidade após omissões.",
+    "guidanceWhenReversed": "Invertido, indica honestidade, confissão ou a revelação de verdades antes ocultas.",
+    "keywordsLight": [
+      "Engano",
+      "Estratégia",
+      "Segredo",
+      "Evasão"
+    ],
+    "keywordsShadow": [
+      "Honestidade",
+      "Verdade",
+      "Revelação",
+      "Confronto"
+    ]
+  },
+  "oito de espadas": {
+    "name": "Oito de Espadas",
+    "essence": "Representa restrição e a sensação de estar preso, sugerindo limitações criadas pelos próprios pensamentos.",
+    "lightMeaning": "Em pé, significa sentir-se restringido pelas circunstâncias. Sugere que a clareza de pensamento é a chave para superar limitações autoimpostas.",
+    "shadowMeaning": "Invertido, indica a possibilidade de libertar-se. Sugere que as restrições são mentais e podem ser removidas mudando a forma de ver o problema.",
+    "guidanceWhenReversed": "Invertido, indica libertação de medos, quebra de barreiras mentais e nova perspectiva.",
+    "keywordsLight": [
+      "Restrição",
+      "Limitação",
+      "Aprisionamento",
+      "Bloqueio Mental"
+    ],
+    "keywordsShadow": [
+      "Liberdade",
+      "Liberação",
+      "Superação"
+    ]
+  },
+  "nove de espadas": {
+    "name": "Nove de Espadas",
+    "essence": "Representa ansiedade, culpa e angústia mental. Reflete o tormento da mente e o medo de cenários negativos.",
+    "lightMeaning": "Em pé, significa ansiedade e noites mal dormidas. Sugere que o medo e a culpa estão afetando a saúde mental, mas lembra que o pior está na mente.",
+    "shadowMeaning": "Invertido, indica a saída de um estado de angústia. Sugere trabalhar os traumas e encontrar finalmente a paz de espírito.",
+    "guidanceWhenReversed": "Invertido, indica a liberação da ansiedade, o fim de pesadelos e o início da paz mental.",
+    "keywordsLight": [
+      "Ansiedade",
+      "Culpa",
+      "Angústia",
+      "Medo"
+    ],
+    "keywordsShadow": [
+      "Liberação",
+      "Paz de Espírito",
+      "Cura",
+      "Desapego"
+    ]
+  },
+  "dez de espadas": {
+    "name": "Dez de Espadas",
+    "essence": "Representa traição, perda e o fim de um ciclo doloroso. Indica o fundo do poço, mas também o potencial de recomeço.",
+    "lightMeaning": "Em pé, significa um final doloroso ou traição. No entanto, indica que o ciclo terminou e que, a partir do fundo do poço, só se pode subir.",
+    "shadowMeaning": "Invertido, pode sugerir o fim do sofrimento ou alívio após uma crise. Representa a oportunidade de reconstruir-se após a tempestade.",
+    "guidanceWhenReversed": "Invertido, sugere a superação de uma derrota, o início da cura e a sobrevivência a um trauma.",
+    "keywordsLight": [
+      "Traição",
+      "Fim Doloroso",
+      "Fundo do Poço",
+      "Derrota"
+    ],
+    "keywordsShadow": [
+      "Recuperação",
+      "Cura",
+      "Recomeço",
+      "Alívio"
+    ]
+  },
+  "pagem de espadas": {
+    "name": "Pagem de Espadas",
+    "essence": "Representa curiosidade, exploração e o desejo de conhecimento. Simboliza uma abordagem jovem e fresca para novas ideias.",
+    "lightMeaning": "Em pé, representa sede de saber. Pode sugerir um momento ideal para estudos, pesquisas ou o início de um novo projeto intelectual.",
+    "shadowMeaning": "Invertido, pode indicar indiscrição ou o uso da mente para fins enganosos. Alerta para não ser precipitado em julgamentos ou palavras.",
+    "guidanceWhenReversed": "Invertido, alerta para fofocas, espionagem ou o uso manipulador da inteligência.",
+    "keywordsLight": [
+      "Curiosidade",
+      "Aprendizado",
+      "Descoberta",
+      "Energia Jovem"
+    ],
+    "keywordsShadow": [
+      "Fofoca",
+      "Espionagem",
+      "Engano",
+      "Insegurança"
+    ]
+  },
+  "cavaleiro de espadas": {
+    "name": "Cavaleiro de Espadas",
+    "essence": "Representa ação, ambição e determinação. Significa alguém que avança com um objetivo claro e mente focada.",
+    "lightMeaning": "Em pé, significa um período de ação assertiva e comunicação direta. Incentiva a tomada de decisões rápidas e o avanço com confiança.",
+    "shadowMeaning": "Invertido, sugere pressa excessiva ou grosseria. Alerta contra agir impulsivamente sem considerar como isso afeta os outros.",
+    "guidanceWhenReversed": "Invertido, sugere impulsividade, comportamento imprudente ou agir sem pensar nas consequências.",
+    "keywordsLight": [
+      "Ação",
+      "Ambição",
+      "Determinação",
+      "Raciocínio Rápido"
+    ],
+    "keywordsShadow": [
+      "Impulsividade",
+      "Imprudência",
+      "Conflito",
+      "Desfocado"
+    ]
+  },
+  "rainha de espadas": {
+    "name": "Rainha de Espadas",
+    "essence": "Representa clareza, intelecto e sabedoria. Encarna uma abordagem objetiva e racional, equilibrando emoção com razão.",
+    "lightMeaning": "Em pé, significa clareza de pensamento e julgamento imparcial. Incentiva a falar a sua verdade e usar o intelecto para resolver problemas.",
+    "shadowMeaning": "Invertida, pode indicar distanciamento emocional ou crueza nas palavras. Sugere cuidado para não se tornar amarga ou dura demais com os outros.",
+    "guidanceWhenReversed": "Invertida, pode indicar frieza emocional, amargura ou ser excessivamente crítica e julgadora.",
+    "keywordsLight": [
+      "Clareza",
+      "Sabedoria",
+      "Independência",
+      "Racionalidade"
+    ],
+    "keywordsShadow": [
+      "Frieza",
+      "Rigor",
+      "Distanciamento",
+      "Crítica"
+    ]
+  },
+  "rei de espadas": {
+    "name": "Rei de Espadas",
+    "essence": "Representa autoridade, lógica e liderança intelectual. Usa a razão e a análise para liderar com justiça e sabedoria.",
+    "lightMeaning": "Em pé, significa domínio da comunicação e decisões baseadas em fatos. Incentiva a liderança pelo exemplo e o pensamento imparcial.",
+    "shadowMeaning": "Invertido, alerta para o uso do intelecto para manipular ou dominar. Pode indicar uma pessoa fria e desconectada das emoções humanas.",
+    "guidanceWhenReversed": "Invertido, sugere abuso de poder, manipulação ou um pensamento excessivamente rígido e frio.",
+    "keywordsLight": [
+      "Autoridade",
+      "Intelecto",
+      "Liderança",
+      "Justiça"
+    ],
+    "keywordsShadow": [
+      "Manipulação",
+      "Rigidez",
+      "Abuso de Poder",
+      "Frieza"
+    ]
+  },
+  "as de ouros": {
+    "name": "As de Ouros",
+    "essence": "O Ás de Ouros representa novas oportunidades financeiras, prosperidade e abundância.",
+    "lightMeaning": "Em pé, o Ás de Ouros indica um novo começo nos aspectos financeiros ou materiais. Simboliza abundância, novos negócios e a promessa de prosperidade futura.",
+    "shadowMeaning": "Invertido, o Ás de Ouros alerta sobre oportunidades perdidas, instabilidade financeira ou ganância. Urge cautela na gestão de seus recursos.",
+    "guidanceWhenReversed": "Invertido, alerta sobre oportunidades perdidas, instabilidade financeira ou ganância.",
+    "keywordsLight": [
+      "Abundância",
+      "Prosperidade",
+      "Novas Oportunidades",
+      "Sucesso"
+    ],
+    "keywordsShadow": [
+      "Oportunidades Perdidas",
+      "Instabilidade Financeira",
+      "Ganância"
+    ]
+  },
+  "dois de ouros": {
+    "name": "Dois de Ouros",
+    "essence": "O Dois de Ouros destaca equilíbrio, adaptabilidade e a gestão de prioridades.",
+    "lightMeaning": "Em pé, esta carta sugere encontrar equilíbrio em meio ao caos e priorizar de forma eficaz. Reflete adaptabilidade e multitarefa.",
+    "shadowMeaning": "Invertido, o Dois de Ouros alerta sobre estar sobrecarregado, má gestão do tempo ou dificuldade em manter as coisas em ordem.",
+    "guidanceWhenReversed": "Invertido, alerta sobre sobrecarga, má gestão do tempo ou desorganização.",
+    "keywordsLight": [
+      "Equilíbrio",
+      "Adaptabilidade",
+      "Multitarefa",
+      "Flexibilidade"
+    ],
+    "keywordsShadow": [
+      "Sobrecarga",
+      "Desorganização",
+      "Má Gestão do Tempo"
+    ]
+  },
+  "tres de ouros": {
+    "name": "Tres de Ouros",
+    "essence": "O Três de Ouros simboliza trabalho em equipe, colaboração e maestria artesanal.",
+    "lightMeaning": "Em pé, esta carta destaca o valor do trabalho em equipe e da colaboração para alcançar um objetivo. Incentiva o reconhecimento das contribuições individuais.",
+    "shadowMeaning": "Invertido, alerta para um trabalho em equipe deficiente, falta de colaboração ou sentimento de desvalorização em um esforço de grupo.",
+    "guidanceWhenReversed": "Invertido, indica falta de cooperação, desorganização ou trabalho mal valorizado.",
+    "keywordsLight": [
+      "Trabalho em Equipe",
+      "Maestria",
+      "Colaboração",
+      "Planejamento"
+    ],
+    "keywordsShadow": [
+      "Desorganização",
+      "Falta de Colaboração",
+      "Subvalorização"
+    ]
+  },
+  "quatro de ouros": {
+    "name": "Quatro de Ouros",
+    "essence": "O Quatro de Ouros representa estabilidade, segurança e, às vezes, materialismo ou controle.",
+    "lightMeaning": "Em pé, o Quatro de Ouros sugere segurança financeira e estabilidade. No entanto, também pode alertar contra o apego excessivo aos recursos ou o materialismo exagerado.",
+    "shadowMeaning": "Invertido, esta carta alerta para insegurança financeira, má gestão ou a necessidade de abrir mão do controle e se abrir para a generosidade.",
+    "guidanceWhenReversed": "Invertido, sugere insegurança financeira, avareza excessiva ou necessidade de desapego.",
+    "keywordsLight": [
+      "Estabilidade",
+      "Controle",
+      "Segurança",
+      "Conservação"
+    ],
+    "keywordsShadow": [
+      "Insegurança",
+      "Ganância",
+      "Má Gestão"
+    ]
+  },
+  "cinco de ouros": {
+    "name": "Cinco de Ouros",
+    "essence": "O Cinco de Ouros simboliza dificuldades, privação ou sentimento de exclusão.",
+    "lightMeaning": "Em pé, o Cinco de Ouros significa dificuldade financeira, isolamento ou perda. Incentiva a busca por ajuda e a descoberta de força na adversidade.",
+    "shadowMeaning": "Invertido, esta carta pode indicar recuperação de dificuldades, esperança renovada ou a descoberta de um caminho para a estabilidade e segurança.",
+    "guidanceWhenReversed": "Invertido, indica recuperação de dificuldades, renovação da esperança e auxílio vindo.",
+    "keywordsLight": [
+      "Dificuldade",
+      "Pobreza",
+      "Perda",
+      "Luta"
+    ],
+    "keywordsShadow": [
+      "Recuperação",
+      "Renovação",
+      "Esperança"
+    ]
+  },
+  "seis de ouros": {
+    "name": "Seis de Ouros",
+    "essence": "O Seis de Ouros representa generosidade, equilíbrio e o ato de dar e receber.",
+    "lightMeaning": "Em pé, o Seis de Ouros simboliza generosidade, compartilhamento e equilíbrio. Incentiva atos de bondade e trocas equitativas.",
+    "shadowMeaning": "Invertido, esta carta alerta para desigualdade, exploração ou segundas intenções em atos de dar e receber.",
+    "guidanceWhenReversed": "Invertido, alerta para desigualdade, exploração ou segundas intenções em favores.",
+    "keywordsLight": [
+      "Generosidade",
+      "Equilíbrio",
+      "Bondade",
+      "Apoio"
+    ],
+    "keywordsShadow": [
+      "Desigualdade",
+      "Exploração",
+      "Egoísmo"
+    ]
+  },
+  "sete de ouros": {
+    "name": "Sete de Ouros",
+    "essence": "O Sete de Ouros simboliza paciência, reflexão e investimento a longo prazo.",
+    "lightMeaning": "Em pé, o Sete de Ouros significa que o trabalho árduo está dando frutos, destacando a paciência e o planejamento a longo prazo.",
+    "shadowMeaning": "Invertido, esta carta alerta para impaciência, falta de resultados ou esforço mal direcionado. Sugere reavaliar sua abordagem.",
+    "guidanceWhenReversed": "Invertido, indica impaciência, falta de resultados ou esforço mal direcionado.",
+    "keywordsLight": [
+      "Paciência",
+      "Esforço",
+      "Planejamento",
+      "Reflexão"
+    ],
+    "keywordsShadow": [
+      "Impaciência",
+      "Frustração",
+      "Má Gestão"
+    ]
+  },
+  "oito de ouros": {
+    "name": "Oito de Ouros",
+    "essence": "O Oito de Ouros simboliza maestria, dedicação e o aperfeiçoamento de habilidades.",
+    "lightMeaning": "Em pé, o Oito de Ouros significa dedicação, desenvolvimento de habilidades e foco. Incentiva o trabalho árduo para alcançar a maestria.",
+    "shadowMeaning": "Invertido, esta carta alerta para o esgotamento, falta de foco ou trabalho de baixa qualidade. Sugere revisar sua dedicação.",
+    "guidanceWhenReversed": "Invertido, alerta para esgotamento (burnout), falta de foco ou trabalho medíocre.",
+    "keywordsLight": [
+      "Dedicação",
+      "Maestria",
+      "Foco",
+      "Perseverança"
+    ],
+    "keywordsShadow": [
+      "Esgotamento",
+      "Falta de Foco",
+      "Baixa Qualidade"
+    ]
+  },
+  "nove de ouros": {
+    "name": "Nove de Ouros",
+    "essence": "O Nove de Ouros representa independência, luxo e autossuficiência.",
+    "lightMeaning": "Em pé, o Nove de Ouros significa independência financeira, autossuficiência e as recompensas do esforço pessoal.",
+    "shadowMeaning": "Invertido, esta carta alerta para dependência financeira, falta de autodisciplina ou excesso de indulgência.",
+    "guidanceWhenReversed": "Invertido, indica dependência financeira, falta de autodisciplina ou excessos.",
+    "keywordsLight": [
+      "Independência",
+      "Luxo",
+      "Autossuficiência",
+      "Conquista"
+    ],
+    "keywordsShadow": [
+      "Dependência",
+      "Falta de Disciplina",
+      "Excesso"
+    ]
+  },
+  "dez de ouros": {
+    "name": "Dez de Ouros",
+    "essence": "O Dez de Ouros simboliza riqueza, família e legado.",
+    "lightMeaning": "Em pé, o Dez de Ouros significa sucesso, segurança e as recompensas duradouras do legado e dos laços familiares.",
+    "shadowMeaning": "Invertido, alerta para instabilidade financeira, conflitos familiares ou planejamento de curto prazo.",
+    "guidanceWhenReversed": "Invertido, indica instabilidade financeira, conflitos familiares ou falta de visão futura.",
+    "keywordsLight": [
+      "Riqueza",
+      "Legado",
+      "Segurança",
+      "Família"
+    ],
+    "keywordsShadow": [
+      "Instabilidade",
+      "Conflito",
+      "Mau Planejamento"
+    ]
+  },
+  "pagem de ouros": {
+    "name": "Pagem de Ouros",
+    "essence": "O Valete de Ouros representa curiosidade, ambição e potencial de crescimento em assuntos práticos.",
+    "lightMeaning": "Em pé, o Valete de Ouros significa oportunidades de aprendizado, definição de metas e a manifestação de sonhos em realidade. Incentiva diligência e foco.",
+    "shadowMeaning": "Invertido, esta carta alerta para procrastinação, falta de foco ou oportunidades perdidas. Sugere reavaliar suas prioridades e manter os pés no chão.",
+    "guidanceWhenReversed": "Invertido, alerta para procrastinação, falta de foco ou oportunidades ignoradas.",
+    "keywordsLight": [
+      "Oportunidade",
+      "Aprendizado",
+      "Ambição",
+      "Diligência"
+    ],
+    "keywordsShadow": [
+      "Procrastinação",
+      "Oportunidades Perdidas",
+      "Distração"
+    ]
+  },
+  "cavaleiro de ouros": {
+    "name": "Cavaleiro de Ouros",
+    "essence": "O Cavaleiro de Ouros simboliza trabalho árduo, confiabilidade e progresso constante em direção às metas.",
+    "lightMeaning": "Em pé, o Cavaleiro de Ouros representa dedicação, perseverança e uma mentalidade prática. Incentiva o foco em metas de longo prazo.",
+    "shadowMeaning": "Invertido, esta carta alerta para estagnação, cautela excessiva ou foco exagerado na rotina. Sugere encontrar um equilíbrio entre estabilidade e flexibilidade.",
+    "guidanceWhenReversed": "Invertido, sugere estagnação, cautela excessiva ou rigidez na rotina.",
+    "keywordsLight": [
+      "Persistência",
+      "Confiabilidade",
+      "Progresso Constante",
+      "Diligência"
+    ],
+    "keywordsShadow": [
+      "Estagnação",
+      "Rigidez",
+      "Falta de Progresso"
+    ]
+  },
+  "rainha de ouros": {
+    "name": "Rainha de Ouros",
+    "essence": "A Rainha de Ouros representa energia nutridora, praticidade e abundância material.",
+    "lightMeaning": "Em pé, a Rainha de Ouros significa abundância, calor humano e uma atitude realista. Incentiva o equilíbrio entre responsabilidades pessoais e profissionais.",
+    "shadowMeaning": "Invertida, esta carta alerta para negligência, desequilíbrio ou dependência material. Sugere reconectar-se com o autocuidado e priorizar responsabilidades reais.",
+    "guidanceWhenReversed": "Invertida, alerta para negligência, desequilíbrio ou dependência material.",
+    "keywordsLight": [
+      "Nutrição",
+      "Abundância",
+      "Praticidade",
+      "Acolhimento"
+    ],
+    "keywordsShadow": [
+      "Negligência",
+      "Desequilíbrio",
+      "Materialismo"
+    ]
+  },
+  "rei de ouros": {
+    "name": "Rei de Ouros",
+    "essence": "O Rei de Ouros simboliza riqueza, liderança e maestria sobre o sucesso material.",
+    "lightMeaning": "Em pé, o Rei de Ouros significa sucesso material, disciplina e confiabilidade. Incentiva uma abordagem estratégica e fundamentada em seus empreendimentos.",
+    "shadowMeaning": "Invertido, esta carta alerta para ganância, má liderança ou indulgência excessiva em questões materiais. Sugere refocar em valores e responsabilidades.",
+    "guidanceWhenReversed": "Invertido, alerta para ganância, liderança medíocre ou excesso de materialismo.",
+    "keywordsLight": [
+      "Liderança",
+      "Riqueza",
+      "Estabilidade",
+      "Disciplina"
+    ],
+    "keywordsShadow": [
+      "Ganância",
+      "Má Liderança",
+      "Materialismo"
+    ]
+  }
+}
