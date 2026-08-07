@@ -1,0 +1,16 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit
+pandas
+moviepy==1.0.3
+opencv-python
+pydub
+librosa
+TTS
+torch==2.1.2
+torchaudio==2.1.2
+transformers==4.35.2
+numpy<2.0
+pillow
+openai-whisper
+google-genai
+ffmpeg-python

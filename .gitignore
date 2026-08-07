@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+/inputs/
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs, temp and caches
+*.log
+temp/
+tmp/
+.cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local environment / secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# Generated project outputs (ignore by default; remove if you want to version projects)
+/projects/
+
+# Roteiros, rpovavelmente descontinuado 
+/roteiros/
+
+
+# Generated audio/video and large media caches
+inputs/vozes_geradas/
+modelos_rvc/
+models/
+*.wav
+*.mp3
+*.mp4
+*.mov
+
+# ffmpeg / container intermediates
+*.ts
+*.mkv
+
+# Misc
+__pycache__/

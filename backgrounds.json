@@ -1,0 +1,22 @@
+{
+  "mist_rox_001_galaxia.mp4": {
+    "nome_exibicao": "Galáxia Roxa Profunda",
+    "vibe": "místico",
+    "ritmo": "lento",
+    "cor_predominante": "roxo",
+    "elementos_associados": ["ar", "espírito"],
+    "duracao_segundos": 30.0,
+    "posicao_texto": "inferior",
+    "tags": ["estrelas", "universo", "meditação"]
+  },
+  "fog_ver_002_velas.mp4": {
+    "nome_exibicao": "Velas em Movimento",
+    "vibe": "introspectivo",
+    "ritmo": "lento",
+    "cor_predominante": "vermelho",
+    "elementos_associados": ["fogo"],
+    "duracao_segundos": 15.5,
+    "posicao_texto": "centro",
+    "tags": ["velas", "fogo", "escuridão", "conselho"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Padrão": {
+    "temperatura": 0.88,
+    "velocidade": 1.12,
+    "descricao": "Tom equilibrado, ritmo natural do canal"
+  },
+  "Solene": {
+    "temperatura": 0.70,
+    "velocidade": 0.95,
+    "descricao": "Mais grave e pausado, cartas pesadas como A Torre e A Morte"
+  },
+  "Intenso": {
+    "temperatura": 0.95,
+    "velocidade": 1.20,
+    "descricao": "Mais expressivo e rápido, cartas de ação como O Carro e O Mago"
+  },
+  "Meditativo": {
+    "temperatura": 0.75,
+    "velocidade": 0.90,
+    "descricao": "Lento e contemplativo, cartas de introspecção como O Ermitão e A Lua"
+  }
+}
