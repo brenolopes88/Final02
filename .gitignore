@@ -49,9 +49,8 @@ secrets.json
 # Generated project outputs (ignore by default; remove if you want to version projects)
 /projects/
 
-# Roteiros, rpovavelmente descontinuado 
+# Roteiros, provavelmente descontinuado 
 /roteiros/
-
 
 # Generated audio/video and large media caches
 inputs/vozes_geradas/
@@ -65,6 +64,8 @@ models/
 # ffmpeg / container intermediates
 *.ts
 *.mkv
+ffmpeg.exe
+ffprobe.exe
 
 # Misc
 __pycache__/
