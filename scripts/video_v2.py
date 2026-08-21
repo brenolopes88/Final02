@@ -113,7 +113,7 @@ def criar_fundo_base(bg_path: str, duracao: float, inicio: float):
     return bg.set_start(inicio)
 
 
-def criar_texto_pil(texto: str, tamanho_fonte: int = 70,
+def criar_texto_pil(texto: str, tamanho_fonte: int = 55,
                     cor=(255, 255, 255), sombra=True) -> ImageClip:
     
     pasta_fonts = os.path.join(BASE_DIR, "inputs", "fonts")
@@ -214,26 +214,23 @@ def gerar_legendas_pil(audio_path: str) -> list:
         palavras = segment['words']
 
         for i in range(0, len(palavras), palavras_por_bloco):
-            grupo      = palavras[i:i + palavras_por_bloco]
+            grupo       = palavras[i:i + palavras_por_bloco]
             texto_bloco = " ".join([w['word'].strip().upper() for w in grupo])
             start_t    = grupo[0]['start']
             end_t      = grupo[-1]['end']
             duracao    = max(end_t - start_t, 0.1)
 
             try:
-                # CORREÇÃO: Injetando o FPS diretamente no clipe gerado pelo PIL
                 txt_clip = (
                     criar_texto_pil(texto_bloco, tamanho_fonte=55)
-                    .set_fps(30)                    # Garante o FPS nos métodos internos do MoviePy
-                    .set_start(start_t)
+                    .set_fps(30)
+                    .set_start(start_t)             # 1. CORRIGIDO: Define o tempo exato de entrada da legenda
                     .set_duration(duracao)
-                    .set_position(('center', 1550))
+                    .set_position(('center', 1550)) # 2. CORRIGIDO: Subiu para 1400px (visível e bem posicionado no 1080x1920)
                     .fx(vfx.fadein, 0.1)
                 )
                 
-                # Força o atributo diretamente para evitar bugs de decoradores teimosos
                 txt_clip.fps = 30.0
-                
                 legendas.append(txt_clip)
             except Exception as e:
                 print(f"⚠️ Erro ao criar legenda '{texto_bloco}': {e}")
@@ -317,8 +314,8 @@ def montar_video_v2(
 
                     txt_clip = (
                         criar_texto_pil(
-                            nome_original.upper().replace(" ", "\n"),
-                            tamanho_fonte=70
+                            nome_original.upper().replace("_", " ").replace(" ", "\n"),
+                            tamanho_fonte=55
                         )
                         .set_start(tempo_acumulado)
                         .set_duration(duracao_real)
@@ -378,8 +375,8 @@ def montar_video_v2(
                                 img_c = img_c.rotate(180)
 
                             txt_c = criar_texto_pil(
-                                nome_carta.upper().replace(" ", "\n"),
-                                tamanho_fonte=45
+                                nome_carta.upper().replace("_", " ").replace(" ", "\n"),
+                                tamanho_fonte=55
                             )
                             centro_x = x_pos + w_real / 2
                             txt_c = (

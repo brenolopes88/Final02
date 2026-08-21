@@ -4,19 +4,177 @@
     "vibe": "místico",
     "ritmo": "lento",
     "cor_predominante": "roxo",
-    "elementos_associados": ["ar", "espírito"],
+    "elementos_associados": [
+      "ar",
+      "espírito"
+    ],
     "duracao_segundos": 30.0,
     "posicao_texto": "inferior",
-    "tags": ["estrelas", "universo", "meditação"]
+    "tags": [
+      "estrelas",
+      "universo",
+      "meditação"
+    ]
   },
   "fog_ver_002_velas.mp4": {
     "nome_exibicao": "Velas em Movimento",
     "vibe": "introspectivo",
     "ritmo": "lento",
     "cor_predominante": "vermelho",
-    "elementos_associados": ["fogo"],
+    "elementos_associados": [
+      "fogo"
+    ],
     "duracao_segundos": 15.5,
     "posicao_texto": "centro",
-    "tags": ["velas", "fogo", "escuridão", "conselho"]
+    "tags": [
+      "velas",
+      "fogo",
+      "escuridão",
+      "conselho"
+    ]
+  },
+  "mis_amarelo_cinza_m_luna_fases.mp4": {
+    "nome_exibicao": "Luna",
+    "vibe": "místico",
+    "ritmo": "médio",
+    "cor_predominante": "amarelo",
+    "elementos_associados": [],
+    "duracao_segundos": 7.79,
+    "posicao_texto": "inferior",
+    "tags": [
+      "luna"
+    ]
+  },
+  "mis_azul_l_noite_chuvosa.mp4": {
+    "nome_exibicao": "Chuvosa",
+    "vibe": "místico",
+    "ritmo": "lento",
+    "cor_predominante": "azul",
+    "elementos_associados": [],
+    "duracao_segundos": 6.7,
+    "posicao_texto": "inferior",
+    "tags": [
+      "chuvosa"
+    ]
+  },
+  "nat_amarelo_l_alvorecer_alto.mp4": {
+    "nome_exibicao": "Alto",
+    "vibe": "natureza",
+    "ritmo": "lento",
+    "cor_predominante": "amarelo",
+    "elementos_associados": [],
+    "duracao_segundos": 7.0,
+    "posicao_texto": "inferior",
+    "tags": [
+      "alto"
+    ]
+  },
+  "nat_azul_gelo_l_caverna_congelada.mp4": {
+    "nome_exibicao": "Caverna",
+    "vibe": "natureza",
+    "ritmo": "médio",
+    "cor_predominante": "azul",
+    "elementos_associados": [],
+    "duracao_segundos": 29.98,
+    "posicao_texto": "inferior",
+    "tags": [
+      "caverna"
+    ]
+  },
+  "nat_azul_l_praia_encantada.mp4": {
+    "nome_exibicao": "Encantada",
+    "vibe": "natureza",
+    "ritmo": "lento",
+    "cor_predominante": "azul",
+    "elementos_associados": [],
+    "duracao_segundos": 7.0,
+    "posicao_texto": "inferior",
+    "tags": [
+      "encantada"
+    ]
+  },
+  "nat_cinza_laranja_m_pordosol_ilha.mp4": {
+    "nome_exibicao": "Pordosol",
+    "vibe": "natureza",
+    "ritmo": "médio",
+    "cor_predominante": "cinza",
+    "elementos_associados": [],
+    "duracao_segundos": 30.0,
+    "posicao_texto": "inferior",
+    "tags": [
+      "pordosol"
+    ]
+  },
+  "nat_verde_claro_m_canoa_sob_arvore.mov": {
+    "nome_exibicao": "Canoa",
+    "vibe": "natureza",
+    "ritmo": "médio",
+    "cor_predominante": "verde",
+    "elementos_associados": [],
+    "duracao_segundos": 11.98,
+    "posicao_texto": "inferior",
+    "tags": [
+      "canoa"
+    ]
+  },
+  "nat_verde_l_mata_aberta.mov": {
+    "nome_exibicao": "Aberta",
+    "vibe": "natureza",
+    "ritmo": "lento",
+    "cor_predominante": "verde",
+    "elementos_associados": [],
+    "duracao_segundos": 17.22,
+    "posicao_texto": "inferior",
+    "tags": [
+      "aberta"
+    ]
+  },
+  "nat_verde_l_passaro_azul.mov": {
+    "nome_exibicao": "Azul",
+    "vibe": "natureza",
+    "ritmo": "lento",
+    "cor_predominante": "verde",
+    "elementos_associados": [],
+    "duracao_segundos": 24.69,
+    "posicao_texto": "inferior",
+    "tags": [
+      "azul"
+    ]
+  },
+  "nat_verde_m_bambu_chuva.mp4": {
+    "nome_exibicao": "Chuva",
+    "vibe": "natureza",
+    "ritmo": "médio",
+    "cor_predominante": "verde",
+    "elementos_associados": [],
+    "duracao_segundos": 7.03,
+    "posicao_texto": "inferior",
+    "tags": [
+      "chuva"
+    ]
+  },
+  "nat_verde_m_cachoeira_mata_fechada.mov": {
+    "nome_exibicao": "Mata",
+    "vibe": "natureza",
+    "ritmo": "médio",
+    "cor_predominante": "verde",
+    "elementos_associados": [],
+    "duracao_segundos": 20.4,
+    "posicao_texto": "inferior",
+    "tags": [
+      "mata"
+    ]
+  },
+  "rom_branco_l_carroagem_costa.mp4": {
+    "nome_exibicao": "Costa",
+    "vibe": "romântico",
+    "ritmo": "lento",
+    "cor_predominante": "branco",
+    "elementos_associados": [],
+    "duracao_segundos": 15.05,
+    "posicao_texto": "inferior",
+    "tags": [
+      "costa"
+    ]
   }
 }

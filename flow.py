@@ -6,6 +6,7 @@ import shutil
 import unicodedata
 from argparse import ArgumentParser
 from pathlib import Path
+from datetime import datetime
 
 from gerador_gemini import solicitar_roteiro
 from scripts.video_v2 import montar_video_v2, listar_musicas
@@ -40,19 +41,16 @@ PERIODO_ALIASES = {
     "manha": "MANHÃ",
     "manhã": "MANHÃ",
     "m": "MANHÃ",
-    "manha": "MANHÃ",
     "noite": "NOITE",
     "n": "NOITE",
     "night": "NOITE"
 }
-
 
 def normalize_text(value: str) -> str:
     value = str(value or "")
     value = unicodedata.normalize("NFD", value)
     value = value.encode("ascii", "ignore").decode("ascii")
     return re.sub(r"[^a-zA-Z0-9]+", " ", value).strip().lower()
-
 
 def slugify(value: str) -> str:
     value = str(value or "")
@@ -61,7 +59,6 @@ def slugify(value: str) -> str:
     value = re.sub(r"[^0-9a-zA-Z]+", "_", value)
     value = re.sub(r"_+", "_", value).strip("_")
     return value or "texto"
-
 
 def load_presets() -> dict:
     if PRESETS_PATH.exists():
@@ -76,11 +73,9 @@ def load_presets() -> dict:
         "Meditativo": {"temperatura": 0.75, "velocidade": 0.90},
     }
 
-
 PRESETS = load_presets()
 NORMALIZED_HUMORS = {normalize_text(k): k for k in PRESETS}
 NORMALIZED_HUMORS.update(HUMOR_ALIASES)
-
 
 def detect_delimiter(text: str) -> str:
     try:
@@ -90,14 +85,12 @@ def detect_delimiter(text: str) -> str:
     except csv.Error:
         return ","
 
-
 def normalize_header(header: str) -> str:
     header = normalize_text(header or "")
     for canonical, variants in FIELD_ALIASES.items():
         if header in [normalize_text(v) for v in variants]:
             return canonical
     return header
-
 
 def parse_csv(path: Path) -> list[dict]:
     text = path.read_text(encoding="utf-8-sig")
@@ -119,12 +112,7 @@ def parse_csv(path: Path) -> list[dict]:
     if has_header:
         reader = csv.DictReader(lines, delimiter=delimiter)
         for row in reader:
-            normalized = {
-                "data": None,
-                "cartas": None,
-                "humor": None,
-                "periodo": None,
-            }
+            normalized = {"data": None, "cartas": None, "humor": None, "periodo": None}
             for key, value in row.items():
                 if key is None:
                     continue
@@ -144,7 +132,6 @@ def parse_csv(path: Path) -> list[dict]:
                 })
     return rows
 
-
 def parse_date(value: str) -> str | None:
     if not value:
         return None
@@ -158,9 +145,7 @@ def parse_date(value: str) -> str | None:
         match = re.match(pattern, value)
         if not match:
             continue
-        if pattern == patterns[0]:
-            d, m = match.groups()
-        elif pattern == patterns[1]:
+        if pattern == patterns[0] or pattern == patterns[1]:
             d, m = match.groups()
         else:
             _, m, d = match.groups()
@@ -173,7 +158,6 @@ def parse_date(value: str) -> str | None:
             return None
     return None
 
-
 def normalize_period(value: str | None, cards: list[str]) -> str:
     if value:
         token = normalize_text(value)
@@ -185,7 +169,6 @@ def normalize_period(value: str | None, cards: list[str]) -> str:
             return "NOITE"
     return "MANHÃ" if len(cards) == 1 else "NOITE"
 
-
 def normalize_humor(value: str | None) -> str:
     if not value:
         return "Padrão"
@@ -194,14 +177,11 @@ def normalize_humor(value: str | None) -> str:
         return NORMALIZED_HUMORS[normalized]
     return "Padrão"
 
-
 def split_cards(value: str) -> list[str]:
     if not value:
         return []
     parts = re.split(r"[,;|]+", value)
-    cards = [part.strip() for part in parts if part.strip()]
-    return cards
-
+    return [part.strip() for part in parts if part.strip()]
 
 def normalize_row(raw_row: dict, row_number: int) -> dict | None:
     data_raw = str(raw_row.get("data") or "").strip()
@@ -247,7 +227,6 @@ def normalize_row(raw_row: dict, row_number: int) -> dict | None:
         "raw": raw_row,
     }
 
-
 def unique_project_path(name: str) -> Path:
     candidate = PROJECTS_DIR / name
     suffix = 1
@@ -256,11 +235,9 @@ def unique_project_path(name: str) -> Path:
         suffix += 1
     return candidate
 
-
 def save_json(path: Path, data: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-
 
 def process_row(entry: dict, dry_run: bool = False) -> bool:
     project_path = unique_project_path(entry["project_name"])
@@ -276,10 +253,18 @@ def process_row(entry: dict, dry_run: bool = False) -> bool:
 
     project_path.mkdir(parents=True, exist_ok=True)
 
+    data_obj = datetime.strptime(entry["date"], "%d-%m")
+    dia_semana = data_obj.strftime("%A").upper()
+    DIAS_PT = {
+        "MONDAY": "SEGUNDA", "TUESDAY": "TERÇA", "WEDNESDAY": "QUARTA",
+        "THURSDAY": "QUINTA", "FRIDAY": "SEXTA", "SATURDAY": "SÁBADO", "SUNDAY": "DOMINGO"
+    }
+    dia_semana_pt = DIAS_PT.get(dia_semana, "SEGUNDA")
+
     try:
         roteiro = solicitar_roteiro(
             cartas=entry["cards"],
-            dia_semana="SEGUNDA",
+            dia_semana=dia_semana_pt,
             data_ddmm=entry["date"],
             periodo=entry["periodo"],
             save_dir=str(project_path),
@@ -293,7 +278,6 @@ def process_row(entry: dict, dry_run: bool = False) -> bool:
         return False
 
     roteiro_data = roteiro[0]
-    # O gerador já salvou o JSON em project_path quando save_dir foi fornecido
     print(f"  ✓ Roteiro salvo em {project_path / 'roteiro.json'}")
 
     try:
@@ -317,19 +301,15 @@ def process_row(entry: dict, dry_run: bool = False) -> bool:
     src = Path(audio_path)
     try:
         if src.resolve() != voice_target.resolve():
-            # Move/rename para voz.wav no projeto (evita cópias duplicadas)
             src.replace(voice_target)
-        else:
-            # Já está no lugar
-            pass
     except Exception:
-        # fallback: copiar
         shutil.copy2(str(src), str(voice_target))
     print(f"  ✓ Voz disponível em {voice_target}")
 
+    # Seleção de Música Pure Random
     musica = random.choice(listar_musicas()) if listar_musicas() else None
     if musica:
-        print(f"  ✓ Música aleatória selecionada: {Path(musica).name}")
+        print(f"  ✓ Música selecionada (aleatória): {Path(musica).name}")
     else:
         print("  ⚠️ Nenhuma música encontrada. O vídeo será gerado sem trilha sonora.")
 
@@ -339,7 +319,7 @@ def process_row(entry: dict, dry_run: bool = False) -> bool:
             roteiro_cenas=roteiro_data.get("roteiro", []),
             pasta_saida=str(project_path),
             nome_projeto=project_path.name,
-            backgrounds_por_bloco=None,
+            backgrounds_por_bloco=None, # None força o montar_video_v2 a usar vídeos aleatórios
             musica_path=musica,
             musica_volume=0.12,
         )
@@ -350,19 +330,10 @@ def process_row(entry: dict, dry_run: bool = False) -> bool:
     print(f"  ✓ Vídeo final salvo em {video_path}")
     return True
 
-
 def process_existing_roteiro(roteiro_data: dict, humor: str, date: str | None = None, cards: list | None = None, dry_run: bool = False) -> bool:
-    """Processa um roteiro JSON já existente: salva no projeto, gera voz e monta vídeo.
-
-    - `roteiro_data`: o dicionário do roteiro já parseado
-    - `humor`: nome do preset (ex.: 'Padrão')
-    - `date`: opcional, formato DD/MM - se omitido usa '00-00'
-    - `cards`: opcional lista de cartas para compor o nome do projeto
-    """
-    # Normaliza o formato de entrada: aceita dict (com chave 'roteiro') ou lista
+    """Processa um roteiro JSON já existente: salva no projeto, gera voz e monta vídeo com assets aleatórios."""
     roteiro_root = None
     if isinstance(roteiro_data, list):
-        # Possíveis formatos: [ { 'roteiro': [...] } ]  ou directamente [ cena, cena, ... ]
         if len(roteiro_data) == 0:
             print("[ERROR] Roteiro vazio fornecido.")
             return False
@@ -370,7 +341,6 @@ def process_existing_roteiro(roteiro_data: dict, humor: str, date: str | None = 
         if isinstance(first, dict) and "roteiro" in first:
             roteiro_root = first
         elif all(isinstance(item, dict) for item in roteiro_data):
-            # lista de cenas -> abraça como o próprio roteiro
             roteiro_root = {"id": "imported", "roteiro": roteiro_data}
         else:
             print("[ERROR] Formato de roteiro não reconhecido.")
@@ -379,9 +349,7 @@ def process_existing_roteiro(roteiro_data: dict, humor: str, date: str | None = 
         if "roteiro" in roteiro_data:
             roteiro_root = roteiro_data
         else:
-            # talvez o dict seja diretamente o bloco de cenas
             if all(isinstance(v, dict) for v in roteiro_data.values()):
-                # transforma em lista de cenas
                 cenas = list(roteiro_data.values())
                 roteiro_root = {"id": "imported", "roteiro": cenas}
             else:
@@ -391,7 +359,6 @@ def process_existing_roteiro(roteiro_data: dict, humor: str, date: str | None = 
         print("[ERROR] Tipo de dado do roteiro inválido.")
         return False
 
-    # Extrai cartas do JSON se não fornecidas
     if not cards:
         cartas_extraidas = []
         for cena in roteiro_root.get("roteiro", []):
@@ -405,7 +372,6 @@ def process_existing_roteiro(roteiro_data: dict, humor: str, date: str | None = 
                 cartas_extraidas.extend([c for c in cartas_lista if isinstance(c, str)])
         cards = list(dict.fromkeys(cartas_extraidas))
 
-    # Normaliza data
     date_str = parse_date(date) if date else None
     if not date_str:
         date_str = "00-00"
@@ -428,11 +394,10 @@ def process_existing_roteiro(roteiro_data: dict, humor: str, date: str | None = 
 
     project_path.mkdir(parents=True, exist_ok=True)
 
-    # Salva o roteiro normalizado no projeto
     save_json(project_path / "roteiro.json", roteiro_root)
     print(f"  ✓ Roteiro salvo em {project_path / 'roteiro.json'}")
 
-    # Gera a voz usando o preset
+    # Usa o preset do humor apenas para controlar o tom/ritmo da Voz
     preset = PRESETS.get(humor, PRESETS.get("Padrão"))
     try:
         text_blocks = [bloco.get("texto", "") for bloco in roteiro_root.get("roteiro", [])]
@@ -460,15 +425,20 @@ def process_existing_roteiro(roteiro_data: dict, humor: str, date: str | None = 
         shutil.copy2(str(src), str(voice_target))
     print(f"  ✓ Voz disponível em {voice_target}")
 
-    # Seleciona música aleatória e monta vídeo
+    # Música totalmente aleatória
     musica = random.choice(listar_musicas()) if listar_musicas() else None
+    if musica:
+        print(f"  ✓ Música selecionada (aleatória): {Path(musica).name}")
+    else:
+        print("  ⚠️ Nenhuma música encontrada. O vídeo será gerado sem trilha sonora.")
+
     try:
         video_path = montar_video_v2(
             audio_path=str(voice_target),
             roteiro_cenas=roteiro_root.get("roteiro", []),
             pasta_saida=str(project_path),
             nome_projeto=project_path.name,
-            backgrounds_por_bloco=None,
+            backgrounds_por_bloco=None, # Usará seleção aleatória interna
             musica_path=musica,
             musica_volume=0.12,
         )
@@ -479,7 +449,6 @@ def process_existing_roteiro(roteiro_data: dict, humor: str, date: str | None = 
     print(f"  ✓ Vídeo final salvo em {video_path}")
     return True
 
-
 def print_csv_instructions() -> None:
     print("\nUse um arquivo CSV chamado 'flow.csv' no root com colunas:\n")
     print("  data,cartas,humor")
@@ -488,8 +457,6 @@ def print_csv_instructions() -> None:
     print("  29/07,Dois de Copas;A Estrela,Intenso")
     print("  30/07,O Eremita,Meditativo")
     print("\nRegras: 1 carta = período MANHÃ; 2 cartas = período NOITE.")
-    print("O campo 'humor' é tolerante a maiúsculas, acentos e variantes como 'padrao', 'solene', 'intenso', 'meditativo'.")
-
 
 def main() -> None:
     parser = ArgumentParser(
@@ -542,7 +509,7 @@ def main() -> None:
 
     for (date, period), count in duplicates.items():
         if count > 1:
-            print(f"[WARN] Existem {count} linhas com a mesma data/período: {date}-{period}. O arquivo de roteiro em roteiros/gerados poderá ser sobrescrito.")
+            print(f"[WARN] Existem {count} linhas com a mesma data/período: {date}-{period}.")
 
     success = 0
     for entry in parsed:
@@ -550,7 +517,6 @@ def main() -> None:
             success += 1
 
     print(f"\nProcessamento concluído: {success} de {len(parsed)} entradas geradas com sucesso.")
-
 
 if __name__ == "__main__":
     main()

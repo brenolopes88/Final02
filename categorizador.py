@@ -4,7 +4,7 @@ from pathlib import Path
 from moviepy.editor import VideoFileClip
 
 # Configurações de caminhos
-PASTA_BGS = Path("backgrounds") # Altere para o caminho da sua pasta
+PASTA_BGS = Path("inputs/videos_fundo") # Altere para o caminho da sua pasta
 ARQUIVO_JSON = Path("backgrounds.json")
 
 # Dicionários de tradução para o JSON ficar bonito

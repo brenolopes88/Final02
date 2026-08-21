@@ -1,0 +1,42 @@
+{
+  "meditacao_001.mp3": {
+    "nome_exibicao": "Meditação Profunda",
+    "vibe": "meditativo",
+    "ritmo": "lento",
+    "energia": "baixa",
+    "instrumentos": ["sintetizador", "pads"],
+    "tags": ["zen", "respiracao", "manha"]
+  },
+  "solene_001.mp3": {
+    "nome_exibicao": "Ritual Antigo",
+    "vibe": "solene",
+    "ritmo": "lento",
+    "energia": "media",
+    "instrumentos": ["cordas", "orgao"],
+    "tags": ["cerimonia", "misterio", "noite"]
+  },
+  "intenso_001.mp3": {
+    "nome_exibicao": "Fogo Interior",
+    "vibe": "intenso",
+    "ritmo": "rapido",
+    "energia": "alta",
+    "instrumentos": ["percussao", "sintetizador"],
+    "tags": ["acao", "transformacao", "fogo"]
+  },
+  "padrao_001.mp3": {
+    "nome_exibicao": "Caminho Suave",
+    "vibe": "padrao",
+    "ritmo": "medio",
+    "energia": "media",
+    "instrumentos": ["piano", "cordas"],
+    "tags": ["equilibrio", "tarot", "diario"]
+  },
+  "mistico_001.mp3": {
+    "nome_exibicao": "Estrelas Cadentes",
+    "vibe": "místico",
+    "ritmo": "lento",
+    "energia": "media",
+    "instrumentos": ["sintetizador", "campainhas"],
+    "tags": ["universo", "noite", "espaco"]
+  }
+}
